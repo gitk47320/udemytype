@@ -45,3 +45,5 @@ console.log(card.owner);
 console.log(card.debugPrint());
 card.secretNumber = 111111111;
 console.log(card.debugPrint());
+//secretNumberは変更できるが参照はできない。
+console.log(card.secretNumber);
