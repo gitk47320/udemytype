@@ -30,3 +30,8 @@ class Jiro implements Kenja, Senshi {
 const jiro = new Jiro();
 jiro.ionazun();
 jiro.kougeki();
+
+//抽象クラスとの違いについて
+//interfaceは抽象クラスとなんとなく似ているような気がするが
+//抽象クラスは多重継承することができない。
+//多重継承のようなことを実現したい場合はinterfaceを使うことになる。
