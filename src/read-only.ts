@@ -7,5 +7,5 @@ class VisaCard {
 
 let myVisaCard = new VisaCard('はむさん')
 console.log(myVisaCard.owner)
-
+//以下コードはエラーになる
 //myVisaCard.owner = 'ベーコン'
