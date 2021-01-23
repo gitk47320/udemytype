@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:gitk47320/udemytype.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
